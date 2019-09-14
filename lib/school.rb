@@ -1,17 +1,10 @@
 # code here!
 class School
   
+  attr_accessor :roster
   
   def initialize
     @roster = {}
-  end
-  
-  def roster=(roster)
-    @roster = roster
-  end
-  
-  def roster
-    @roster
   end
   
 end
